@@ -91,6 +91,51 @@ System.out.println(strNum10 +strNum2 + strdesu);
 System.out.println(strNum11 + (douNum2 / (douNum3 * douNum3)) + strdesu);
 
 
+strNum1 ="鈴木一朗";
+strNum2 ="オムライス";
+
+intNum1 = 24;
+douNum1 = 168.5;
+douNum2 = 64.2;
+douNum3 = 1.685;
+
+System.out.println(strNum3 + strNum1 + strdesu );
+
+System.out.println(strNum4 + intNum1 + strNum5);
+
+System.out.println(strNum6 + douNum1 + strNum7);
+
+System.out.println(strNum8 + douNum2 + strNum9);
+
+System.out.println(strNum10 +strNum2 + strdesu);
+
+System.out.println(strNum11 + (douNum2 / (douNum3 * douNum3)) + strdesu);
+
+
+
+intNum1 = intNum1 + intNum1;
+douNum1 = douNum1 + douNum1;
+douNum2 = douNum2 + douNum2;
+douNum3 = douNum3 + douNum3;
+
+
+System.out.println(strNum3 + strNum1 + strdesu );
+
+System.out.println(strNum4 + intNum1 + strNum5);
+
+System.out.println(strNum6 + douNum1 + strNum7);
+
+System.out.println(strNum8 + douNum2 + strNum9);
+
+System.out.println(strNum10 +strNum2 + strdesu);
+
+System.out.println(strNum11 + (douNum2 / (douNum3 * douNum3)) + strdesu);
+
+
+
+String result = intNum1 > 24 ? "true" : "fales";
+
+System.out.println(result); //true
 
 }
 }
