@@ -137,5 +137,32 @@ String result = intNum1 > 24 ? "true" : "fales";
 
 System.out.println(result); //true
 
+
+intNum1 = 24;
+douNum1 = 168.5;
+douNum2 = 64.2;
+
+String nenrei = String.valueOf(intNum1);
+System.out.println(strNum4 + nenrei + strNum5);
+
+String sinntyou = String.valueOf(douNum1);
+System.out.println(strNum6 + sinntyou + strNum7);
+
+String taijuu = String.valueOf(douNum2);
+System.out.println(strNum8 + taijuu + strNum9);
+
+
+int suuji = Integer.parseInt(nenrei);
+System.out.println(strNum4 + suuji + strNum5);
+
+double takasa = Double.parseDouble(sinntyou);
+System.out.println(strNum6 + takasa + strNum7);
+
+boolean tosi = (suuji == 25);
+boolean saizu = (takasa >= 160); 
+
+String result1 =  !tosi ? "true" : saizu ?  "true" : "false";
+System.out.println(result1); 
+
 }
 }
