@@ -1,6 +1,6 @@
 package sample;
 
-public class curriculum_B2 {
+public class Curriculum_B2 {
 
 	
 

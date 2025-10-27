@@ -2,7 +2,7 @@ package sample;
 
 import java.util.Scanner;
 
-public class curriculum_B5 {
+public class Curriculum_B5 {
 
 
 

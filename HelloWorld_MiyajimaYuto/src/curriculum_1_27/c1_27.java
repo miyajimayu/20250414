@@ -1,6 +1,5 @@
 package curriculum_1_27;
 
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -33,10 +32,9 @@ public class c1_27 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
-		// 入力例（ここをユーザー入力にしてもOK）
-		String input = "ライオン:2.1:80,ゾウ:3.2:40,パンダ:1.9:30,チンパンジー:0.94:25,シマウマ:2.4:65,インコ:0.1:50";
-
 		System.out.println("コンソールに文字を入力してください");
+		// ユーザーから入力を受け取る
+		String input = scanner.nextLine();
 
 		// 学名辞書（必要に応じて拡張可能）
 		Map<String, String> scientificNames = new HashMap<>();
@@ -53,6 +51,10 @@ public class c1_27 {
 
 		for (String animalData : animalDataList) {
 			String[] parts = animalData.split(":");
+			if (parts.length != 3) {
+				System.out.println("入力形式が不正です: " + animalData);
+				continue;
+			}
 			String name = parts[0];
 			double length = Double.parseDouble(parts[1]);
 			int speed = Integer.parseInt(parts[2]);
@@ -62,6 +64,7 @@ public class c1_27 {
 		}
 
 		// 出力
+		System.out.println(); // 空行
 		for (Animal animal : animals) {
 			animal.printInfo();
 		}
@@ -69,5 +72,3 @@ public class c1_27 {
 		scanner.close();
 	}
 }
-
-

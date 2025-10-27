@@ -1,6 +1,6 @@
 package sample;
 
-public class curriculum_B3 {
+public class Curriculum_B3 {
 
 
 	public static void main(String[] args) {
