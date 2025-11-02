@@ -21,7 +21,7 @@ public class Hensuu1 {
 		flNum = 0.0f;
 		douNum = 0.0;
 		chaNum = '\u0000';
-		aisatu = "null";
+		aisatu = null;
 		booNum = false;
 
 		//変数に指定の値を代入

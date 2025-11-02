@@ -28,7 +28,7 @@ class Animal {
 	}
 }
 
-public class c1_27 {
+public class C1_27 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
