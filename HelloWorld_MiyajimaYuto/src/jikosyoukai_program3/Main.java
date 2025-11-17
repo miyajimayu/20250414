@@ -10,6 +10,9 @@ public class Main {
 
 		// 合計人数をクラスメソッドで出力
 		  Person.printCount();
+		  
+		  
+		  
 		 }
 		}
 
